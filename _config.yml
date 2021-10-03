@@ -15,7 +15,7 @@ github:
   owner_url: https://github.com/elcascavel
   repository_url: https://github.com/elcascavel/ResumosCM
 
-show_downloads: true
+show_downloads: false
 show_header: true
 remote_theme: "dracula/gh-pages"
 
