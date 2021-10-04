@@ -130,5 +130,4 @@ programa
 	} 
 }
 ```
-`leia` é uma função que recebe input do utilizador e coloca essa informação na variável pretendida.
-
+`leia` é uma função que recebe input do utilizador e coloca essa informação na variável pretendida. No programa acima colocámos dois números; um na variável `numero1` e outro na variável `numero2`.
