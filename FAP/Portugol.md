@@ -36,12 +36,12 @@ Todas as assinaturas de funções são escritas desta forma:
 tipo nomeDaFuncao(tipo1 argumento1, tipo2 argumento 2, tipo1 argumento3, [etc])
 ```
 Em Portugol temos vários tipos, sendo estes:
-    * inteiro
-    * real
-    * caracter
-    * cadeia
-    * logico
-    * vazio
+*   inteiro
+*   real
+*   caracter
+*   cadeia
+*   logico
+*   vazio
 
 O tipo `inteiro` usa-se quando é necessário usar valores inteiros. Uma variável de tipo inteiro pode conter qualquer número que pertença ao conjunto dos números inteiros. Podem ser positivos, negativos ou nulos.
 Exemplo de sintaxe
