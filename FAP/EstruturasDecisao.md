@@ -15,7 +15,7 @@ se (x == 1) {
 A variável x tem o valor de 1
 */
 ```
-Como definimos que `x` continha o valor de 1, o `se` avaliou `x == 1` e portanto cumpre a condição defina. Logo executa o trecho de código dentro do `se`.
+Como definimos que `x` continha o valor de 1, o `se` avaliou `x == 1` e portanto cumpre a condição definida. Logo executa o trecho de código dentro do `se`.
 
 > Nota: `==` é um operador que se usa para comparar dois operandos. Neste caso comparámos o valor de `x` com 1.
 

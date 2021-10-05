@@ -56,11 +56,14 @@ para(inteiro i = 0; i < 10; i++)
 ```
 
 Reparem que o `para` tem três expressões separadas por ponto e vírgula. A primeira define o que podemos chamar de contador, o `i`.
+
 `inteiro i = 0`
 
 A segunda expressão define a condição que o `para` avalia.
+
 `i < 10`
 
 Finalmente, temos a terceira expressão que é executada no fim do corpo do `para`
+
 `i++`
 

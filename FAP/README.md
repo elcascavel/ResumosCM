@@ -9,4 +9,4 @@ Secção de FAP
  3. [Estruturas de decisão](./EstruturasDecisao.md)
  4. [Ciclos de repetição](./CiclosRepeticao.md)
  5. [Arrays](./Arrays.md)
- 6. [Funções e variáveis locais e globais](./FuncsVars.md)
+ 6. [Funções, variáveis locais e globais](./FuncsVars.md)
