@@ -1,5 +1,5 @@
 # Fundamentos de Algoritmia e Programação
-Secção de FAP
+A consulta destes resumos não dispensa a utilidade do material de estudo dado pelo corpo docente da UC. Para maximizar o apreendimento da matéria leccionada, recomenda-se que façam as fichas de exercícios no SIDE e consulta da documentação na página do Portugol.
 
 # Índice
 

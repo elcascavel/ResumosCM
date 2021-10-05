@@ -57,7 +57,7 @@ programa
 	funcao inicio () 
 	{
         inteiro x = 1
-		mudarX()
+	    mudarX()
         x = 5
         escreva("Agora x vale", x)
 	} 
