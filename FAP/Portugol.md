@@ -32,8 +32,8 @@ Esta função é de tipo `vazio`; Não retorna nada. Este tipo não precisa de s
 Já vamos ver o que são tipos e argumentos.
 
 Todas as assinaturas de funções são escritas desta forma:
-```
-tipo nomeDaFuncao(tipo1 argumento1, tipo2 argumento 2, tipo1 argumento3, [etc])
+```C
+tipo nomeDaFuncao(tipo1 argumento1, tipo2 argumento2, tipo1 argumento3, [etc])
 ```
 Em Portugol temos vários tipos, sendo estes:
 *   inteiro
@@ -100,10 +100,10 @@ A nossa função `inicio` como é de tipo vazio, não retorna nada. Vamos ver um
 ```C
 programa 
 {
-    funcao inteiro soma()
-    {
-        retorne 1 + 1
-    }
+	funcao inteiro soma()
+	{
+		retorne 1 + 1
+	}
     
 	funcao inicio () 
 	{
@@ -113,23 +113,23 @@ programa
 ```
 Como podemos ver, `soma` retorna a soma de 1 + 1. No entanto, isto não é muito útil. Se calhar, gostávamos que esta função recebesse dois números que o utilizador escolhe e depois faça a soma. Vamos ver outro exemplo:
 ```C
-programa 
+programa
 {
-    funcao inteiro soma(inteiro num1, inteiro num2)
-    {
-        retorne num1 + num2
-    }
+	funcao inteiro soma(inteiro num1, inteiro num2)
+	{
+		retorne num1 + num2
+	}
     
 	funcao inicio () 
 	{
-	    inteiro numero1, numero2
+		inteiro numero1, numero2
+
+		escreva("Introduza o primeiro número\n")
+		leia(numero1)
+		escreva("Introduza o segundo número\n")
+		leia(numero2)
 	    
-	    escreva("Introduza o primeiro número\n")
-	    leia(numero1)
-	    escreva("Introduza o segundo número\n")
-	    leia(numero2)
-	    
-	    escreva("O resultado é: ")
+		escreva("O resultado é: ")
 		escreva(soma(numero1, numero2))
 	} 
 }

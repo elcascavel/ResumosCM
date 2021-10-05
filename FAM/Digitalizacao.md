@@ -16,26 +16,27 @@ Amostrar com uma frequência no mínimo igual ao dobro da frequência máxima do
 Consiste em definir uma escala (eixo vertical) e fazer atribuir cada valor da amostragem um valor determinado de amplitude.
 
 Serve para quantificar a infinidade de valores obtidos para que sejam representados por uma quantidade finita de bits de modo a obter um sinal digital.
-```
-Exemplo
-Quantos bits são necessários para codificar uma imagem de 480 por 100 píxeis numa escala de cinzentos com 16 níveis?
 
-Fórmula: altura * largura * 2 elevado a um número cujo resultado, neste caso, seja 16. Portanto será 4 porque 2^4 = 16.
+Exemplo:
 
-480 * 100 = 48000
-48000 * 4 = 192000
 
-São necessários 192,000 bits para codificar esta imagem.
-```
+> Quantos bits são necessários para codificar uma imagem de 480 por 100 píxeis numa escala de cinzentos com 16 níveis?
 
-```
-Exemplo 2
-Quantos bits são necessários para codificar um som com frequência máxima de 4kHz em 256 níveis?
+> Fórmula: altura * largura * 2 elevado a um número cujo resultado, neste caso, seja 16. Portanto será 4 porque 2^4 = 16.
 
-Fórmula: 2 * frequência em hz * 2 elevado a um número cujo resultado, neste caso, seja 256. Portanto será 8 porque 2^8 = 256.
+> 480 * 100 = 48000
+> 48000 * 4 = 192000
 
-2 * 4000 = 8000
-8000 * 8 = 64,000
+>São necessários 192,000 bits para codificar esta imagem.
 
-São necessários 64,000 bits para codificar este som.
-```
+
+Exemplo 2:
+
+> Quantos bits são necessários para codificar um som com frequência máxima de 4kHz em 256 níveis?
+
+> Fórmula: 2 * frequência em hz * 2 elevado a um número cujo resultado, neste caso, seja 256. Portanto será 8 porque 2^8 = 256.
+
+> 2 * 4000 = 8000
+> 8000 * 8 = 64,000
+
+> São necessários 64,000 bits para codificar este som.

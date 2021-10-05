@@ -22,12 +22,12 @@ Vamos declarar uma variável global.
 programa 
 { 
     inteiro x = 1
-	funcao inicio () 
-	{
-		mudarX()
+    funcao inicio () 
+    {
+        mudarX()
         x = 5
         escreva("Agora x vale", x)
-	} 
+    } 
 
     funcao mudarX ()
     {
@@ -54,13 +54,13 @@ Agora vamos mudar o código para que x seja uma variável local.
 ```C
 programa 
 { 
-	funcao inicio () 
-	{
+    funcao inicio () 
+    {
         inteiro x = 1
-	    mudarX()
+        mudarX()
         x = 5
         escreva("Agora x vale", x)
-	} 
+    } 
 
     funcao mudarX ()
     {
@@ -91,11 +91,11 @@ programa
 {
     inteiro x = 1
     funcao inicio () 
-	{
-	    escreva("Valor inicial de x: ", x, "\n")
+    {
+        escreva("Valor inicial de x: ", x, "\n")
         mudarX(x)
         escreva("Valor depois de x ser manipulado na função mudarX(): ", x, "\n")
-	} 
+    } 
 
     funcao mudarX (inteiro _x)
     {
@@ -123,11 +123,11 @@ programa
 {
     inteiro x = 1
     funcao inicio () 
-	{
-	    escreva("Valor inicial de x: ", x, "\n")
+    {
+        escreva("Valor inicial de x: ", x, "\n")
         mudarX(x)
         escreva("Valor depois de x ser manipulado na função mudarX(): ", x, "\n")
-	} 
+    } 
 
     funcao mudarX (inteiro &_x) // <-- Reparem no &
     {

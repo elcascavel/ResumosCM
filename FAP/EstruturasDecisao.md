@@ -66,10 +66,10 @@ escolha(opcao)
     escreva("Pediu um bolinho")
     pare
 
-    caso contrario:
-    escreva("A sua opção não é válida!")
-
     [etc...]
+
+    caso contrario:
+    escreva("A sua opção não é válida!")   
 }
 ```
 

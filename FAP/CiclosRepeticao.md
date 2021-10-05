@@ -10,7 +10,8 @@ A estrutura do `enquanto` é semelhante ao `se`. Avalia uma condição repetidam
 
 ```C
 inteiro i = 0
-enquanto(i < 10) {
+enquanto(i < 10) 
+{
     escreva(i, "\n")
     i++
 }
