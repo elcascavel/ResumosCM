@@ -2,9 +2,9 @@
 Portugol é a primeira linguagem a que os estudantes de CM são expostos. É baseada em C e PHP.
 
 ## Olá Mundo
-```
+```C
 // Comentário
-/* Isto também um comentário */
+/* Isto também é um comentário */
 programa 
 { 
 	funcao inicio () 
@@ -21,13 +21,13 @@ Como podemos ver no exemplo, `//` seguido do que o autor quiser, é um comentár
 A função `inicio` é sempre a primeira função a ser executada num programa. Uma função é um conjunto de código que é executado quando a função é chamada. Quando uma função é chamada, tudo o que está dentro das chavetas é executado.
 
 Esta função, como todas, contém uma assinatura de função.
-```
+```C
 funcao inicio()
 /* É o mesmo que 
 funcao vazio inicio()
 */
 ```
-Esta função é de tipo `vazio`. Este tipo não precisa de ser explícito, ou seja, escrito pelo programador. Para além disso, a função não recebe argumentos.
+Esta função é de tipo `vazio`; Não retorna nada. Este tipo não precisa de ser explícito, ou seja, escrito pelo programador. Para além disso, a função não recebe argumentos.
 
 Já vamos ver o que são tipos e argumentos.
 
@@ -51,24 +51,28 @@ inteiro nome_da_variavel
 
 O tipo `real` é semelhante ao `inteiro`. Usa-se quando queremos armazenar valores que não pertencem aos números inteiros. Os valores do tipo real são números separados por pontos e não por vírgulas.
 Exemplo de sintaxe
+
 ```
 real nome_da_variavel
 ```
 
 O tipo `caracter` usa-se quando queremos armazenar apenas um carácter alfanúmerico ou especial. Letras, números, etc.
 Exemplo de sintaxe
+
 ```
 caracter nome_da_variavel
 ```
 
 O tipo `cadeia` serve para armazenar texto ou uma quantidade grande de caracteres.
 Exemplo de sintaxe
+
 ```
 cadeia nome_da_variavel
 ```
 
 O tipo `logico` é usado em operações lógicas, como estruturas de decisão. Possui somente dois valores, sendo eles `verdadeiro` ou `falso`.
 Exemplo de sintaxe
+
 ```
 logico nome_da_variavel
 ```
@@ -81,7 +85,7 @@ No exemplo acima, temos uma função `inicio` que chama a função `escreva` e d
 
 ### Como se chama uma função?
 Como vemos no exemplo acima, chamamos uma função ao escrever o seu nome e passando os argumentos que este pede.
-```
+```C
 escreva("Olá Mundo!\n")
 
 /*
@@ -93,7 +97,7 @@ A função escreva recebe o argumento:
 ## Retorne
 A nossa função `inicio` como é de tipo vazio, não retorna nada. Vamos ver um exemplo de um programa com uma função de tipo inteiro que retorne uma soma.
 
-```
+```C
 programa 
 {
     funcao inteiro soma()
@@ -108,7 +112,7 @@ programa
 }
 ```
 Como podemos ver, `soma` retorna a soma de 1 + 1. No entanto, isto não é muito útil. Se calhar, gostávamos que esta função recebesse dois números que o utilizador escolhe e depois faça a soma. Vamos ver outro exemplo:
-```
+```C
 programa 
 {
     funcao inteiro soma(inteiro num1, inteiro num2)
