@@ -25,9 +25,10 @@ Exemplo:
 > Fórmula: altura * largura * 2 elevado a um número cujo resultado, neste caso, seja 16. Portanto será 4 porque 2^4 = 16.
 
 > 480 * 100 = 48000
+
 > 48000 * 4 = 192000
 
->São necessários 192,000 bits para codificar esta imagem.
+> São necessários 192,000 bits para codificar esta imagem.
 
 
 Exemplo 2:
@@ -37,6 +38,7 @@ Exemplo 2:
 > Fórmula: 2 * frequência em hz * 2 elevado a um número cujo resultado, neste caso, seja 256. Portanto será 8 porque 2^8 = 256.
 
 > 2 * 4000 = 8000
+
 > 8000 * 8 = 64,000
 
 > São necessários 64,000 bits para codificar este som.
