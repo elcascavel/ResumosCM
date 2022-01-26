@@ -8,7 +8,7 @@ O código PHP é executado pelo HTTPD e insere o texto resultante no corpo da me
 
 Para escrever código PHP, usamos uma espécie de chavetas especiais.
 
-```PHP
+```php
 <?php // <-- chaveta para abrir
 echo "Obrigado por leres os meus resumos!;"
 ?> // <-- chaveta para fechar!
@@ -16,7 +16,7 @@ echo "Obrigado por leres os meus resumos!;"
 
 O código PHP pode aparecer num ficheiro inteiro e dar `echo` a tags HTML, juntamente com outro texto. Pode também estar no meio de HTML assim:
 
-```PHP
+```php
 <body>
 <p>
 <?php // <-- chaveta para abrir
@@ -30,7 +30,7 @@ echo $string;
 ## Variáveis
 As variáveis são usadas para guardar valores, como texto, números ou arrays. O tipo é atribuído automaticamente consoante o dado que lhe é passado. É possível forçar o tipo.
 
-```PHP
+```php
 // Inicializadas por valor
 $a = 3;
 $b = 'gato';
@@ -42,7 +42,7 @@ $k = &$a;
 
 ## Operadores de comparação
 Devolvem true ou false consoante o resultado da comparação.
-```PHP
+```php
 $y = 2;
 $x = 3;
 
@@ -60,7 +60,7 @@ $y != $x // verdadeiro pois y é diferente de x.
 
 ## Operadores lógicos
 
-```PHP
+```php
 && = e
 || = ou
 xor = xor // verdadeiro se um dos operandos for verdadeiro mas não ambos
