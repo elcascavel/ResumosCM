@@ -14,11 +14,10 @@ github:
 
 show_downloads: false
 show_header: true
+remote_theme: "dracula/gh-pages"
 
 sass:
     style: compressed
 
 plugins:
   - jekyll-seo-tag
-
-theme: jekyll-theme-merlot
