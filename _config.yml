@@ -3,8 +3,6 @@ title: Resumos CM
 tagline: Resumos para alunos de CM
 description: Resumos para alunos de CM
 url: https://elcascavel.github.io/ResumosCM/
-twitter: https://twitter.com/zenorocha
-logo: https://draculatheme.com/static/icons/pack-1/045-dracula.svg
 
 # Google Analytics ID
 google_analytics:
@@ -17,7 +15,6 @@ github:
 
 show_downloads: false
 show_header: true
-remote_theme: "dracula/gh-pages"
 
 sass:
     style: compressed
