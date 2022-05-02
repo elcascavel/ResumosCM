@@ -62,16 +62,16 @@ Construtores são chamados automaticamente quando criamos uma instância da clas
     }
 
     $dog = new Dog("Margit", "German Shepherd", 3);
-    echo "The dog's name is " . $dog->_name . "<br>";
-    echo "The dog's breed is " . $dog->_breed . "<br>";
-    echo "The dog's age is " . $dog->_age . " years old";
+    echo "- The dog's name is " . $dog->_name . "<br>";
+    echo "- The dog's breed is " . $dog->_breed . "<br>";
+    echo "- The dog's age is " . $dog->_age . " years old";
 ?>
 ```
 
 Isto daria print do seguinte:
-The dog's name is Godrick
-The dog's breed is German Shepherd
-The dog's age is 3 years old
+- The dog's name is Godrick
+- The dog's breed is German Shepherd
+- The dog's age is 3 years old
 
 Como não dissemos que a propriedade `$_name` é igual ao parâmetro `$name` do construtor, o nome permanecerá Godrick e não Margit.
 
