@@ -21,7 +21,7 @@ Uma propriedade declarada sem um modificador de acesso (public, protected ou pri
         // método
         public function displayVar() 
         {
-            echo $this->$var;
+            echo $this->var;
         }
     }
 ?>
