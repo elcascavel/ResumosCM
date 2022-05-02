@@ -37,6 +37,10 @@ public function displayVar()
 ```
 O `echo` acima não estaria fazer algo! Seria mostrada uma página completamente em branco.
 
+> Nota: O código todo anterior não produziria nada caso fosse executado. Isto porque definimos apenas a classe, não instanciamos o objeto.
+
+![image](https://i.stack.imgur.com/lNUAA.png)
+
 Para criar uma instância da classe teriamos que escrever...
 ```php
 $instance = new MyClass();
